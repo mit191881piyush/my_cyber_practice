@@ -1,0 +1,1 @@
+nmap -sC -sV -p- 192.168.130.123 -oN > /home/kali/Desktop/foldername/filename.txt
