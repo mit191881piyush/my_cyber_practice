@@ -1,0 +1,7 @@
+
+
+sudo nmap -sC -sV -oA nmap/vm 192.168.10.25
+cat nmap/vm.nmap
+---
+nmap -sV -A -p- 192.168.10.25
+
